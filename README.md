@@ -1,6 +1,6 @@
  # ROS2 J1939 Babbler Messages
 
- This is a ROS2 interface package template intended to be used with [ros2_j1939_babbler](https://github.com/umroboticsteam/ros2_j1939_babbler).
+ This is a ROS2 interface package template intended to be used with [ros2_j1939_babbler](https://github.com/umroboticsteam/ros2_j1939_babbler) on ROS2 Humble.
  It consists of some package boilerplate and a Python script which parses CAN message descriptions from a DBC file, and generates a ROS message for each of the CAN messages.
  The resulting ROS messages can then be used by `ros2_j1939_babbler` to convert between the CAN messages and ROS messages.
 
@@ -13,4 +13,3 @@
 4. Build and install the package!
 
 Whenever you make changes to the DBC file, rebuild the package and the ROS messages will be regenerated to match.
-Note that if messages are removed from the DBC file they will not be automatically removed from the ROS package, you must delete them manually if desired.
